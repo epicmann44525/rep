@@ -94,7 +94,8 @@
     .header-tagline {
       font-size: 14px;
       font-weight: 700;
-      color: #f1e4bc; /* Premium Champagne Gold tint */
+      color: #f1e4bc;
+      /* Premium Champagne Gold tint */
       line-height: 1.4;
       padding-left: 15px;
       margin-left: 12px;
@@ -321,6 +322,68 @@
       overflow: hidden;
     }
 
+    /* MOBILE OPTIMIZATIONS */
+    @media (max-width: 600px) {
+      header {
+        padding: 12px 15px;
+      }
+
+      .header-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .header-logo-group {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+      }
+
+      .header-title {
+        font-size: 20px;
+      }
+
+      .header-tagline {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+        font-size: 13px;
+        text-align: center;
+        line-height: 1.6;
+        color: #f1e4bc;
+        opacity: 0.9;
+        max-width: 280px;
+        margin: 0 auto;
+      }
+
+      .header-cta {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+      }
+
+      .card {
+        padding: 12px;
+        gap: 10px;
+      }
+
+      .left {
+        width: 70px;
+        height: 50px;
+      }
+
+      .center-text {
+        font-size: 13px;
+      }
+
+      .bonus-btn {
+        padding: 8px 15px;
+        font-size: 11px;
+      }
+    }
+
     /* SCROLLBAR */
     ::-webkit-scrollbar {
       width: 6px;
@@ -340,7 +403,7 @@
 <body>
 
   <header>
-    <a href="https://slotbilgi.com" class="header-content">
+    <a href="https://slotbilgi.com" target="_blank" class="header-content">
       <div class="header-logo-group">
         <img src="img/slotbilgi.jpg" alt="logo">
         <div class="header-title">SLOT BİLGİ</div>
@@ -522,7 +585,7 @@
       </div>
     </a>
 
-    <a href="https://cutt.ly/AwBoiTN7" target="_blank" class="card-link" style="animation-delay: 1.15s">
+    <a href="https://cutt.ly/1dakikacasinobw" target="_blank" class="card-link" style="animation-delay: 1.15s">
       <div class="card">
         <div class="left"><img src="img/betturkey.png" alt="logo"></div>
         <span class="center-text">300 TL Deneme Bonusu</span>
